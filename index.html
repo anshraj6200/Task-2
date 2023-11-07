@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            background-color: #0fef29;
+            color: #ef0d0d;
+            padding: 20px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        h2 {
+            background-color: #bde90f;
+            color: #e61010;
+            padding: 10px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        form {
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>If you have any questions or feedback, please feel free to get in touch with us using the form below.</p>
+
+    <h2>Our Contact Information</h2>
+    <p>You can also reach out to us using the following methods:</p>
+    <ul>
+        <li>Email: <a href="anshraj432a@gmail.com">anshraj432a@gmail.com</a></li>
+        <li>Phone: 6200560676</li>
+    </ul>
+
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7195.342091966484!2d85.05203499999999!3d25.615845000000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1698488829596!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <h2>Our Team</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            <td>Ansh Raj</td>
+            <td>CEO</td>
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>Marketing Manager</td>
+        </tr>
+    </table>
+
+    <h2>Office Hours</h2>
+    <p>Our office is open from Monday to Friday, 9:00 AM - 5:00 PM.</p>
+
+    <h2>Images</h2>
+    <img src="https://th.bing.com/th/id/R.3c34eb9602b4d5f5e4a21582c2965e0f?rik=fhyd9zMzE6AYwQ&riu=http%3a%2f%2fwww.madammoney.com%2fwp-content%2fuploads%2f2016%2f09%2fCorporate-Building.jpg&ehk=8KACQf%2bvMuMNhl2yGtiiJXh3NWZNd1oB%2bjYnROoNkcA%3d&risl=&pid=ImgRaw&r=0" alt="Image 1">
+    <img src="https://www.corporateservicessingapore.com/wp-content/uploads/2017/01/Company-Incorporation.jpg" alt="Image 2">
+</body>
+</html>
